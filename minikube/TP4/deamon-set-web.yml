@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: DeamonSet
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: debug
+        image: alpine:3.12
+        command: ["sleep","3600"]

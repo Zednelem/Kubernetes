@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Node
+metadata:
+  labels:
+    disktype: ssd
+  name: minikube-m03
+

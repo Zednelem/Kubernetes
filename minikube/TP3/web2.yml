@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web2
+  labels:
+    app: web
+    app1: web
+spec:
+  containers:
+  - name: www
+    image: httpd
+    command: ["/bin/sh","-c","/bin/echo \"Web 2 Melendez\" > /htdocs/index.html"]
+
+  

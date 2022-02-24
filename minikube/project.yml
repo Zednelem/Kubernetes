@@ -1,0 +1,56 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp1
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp2
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp3
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp4
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp5
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp6
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp7
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp8
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp9
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: tp10
+
